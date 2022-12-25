@@ -71,7 +71,7 @@ use linux::{get_num_cpus, get_num_physical_cpus};
 /// [cgroups]: https://www.kernel.org/doc/Documentation/cgroup-v1/cgroups.txt
 #[inline]
 pub fn get() -> usize {
-    println!("added by Salim Pamukcu");
+    println!("added by Salim Pamukcu 25/12/2022");
     get_num_cpus()
 }
 
